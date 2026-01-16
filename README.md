@@ -140,5 +140,7 @@ Essa estrutura facilita manutenção, testes e evolução do sistema.
 ## Observações
 
 - As credenciais presentes no `.env.example` são exclusivas para ambiente local Docker.
+- O arquivo `.env.example` não contém o valor de `JWT_SECRET` por segurança.
+- O segredo JWT deve ser gerado localmente utilizando o comando `php artisan jwt:secret`.
 
 ---
