@@ -51,8 +51,8 @@ API REST desenvolvida em **Laravel**, projeto utiliza **Docker**, **MySQL** e se
 ### Clonar o repositório
 
 ```bash
-git clone https://github.com/jonas-amilton/targetit-api.git
-cd targetit-api
+git clone https://github.com/jonas-amilton/backend-api.git
+cd backend-api
 ```
 
 ---
@@ -267,8 +267,8 @@ Uma **collection do Postman** está disponível no diretório `docs/` para facil
 
 1. Abra o Postman
 2. Clique em **"Import"**
-3. Selecione o arquivo `docs/TargetIT-API.postman_collection.json`
-4. A collection "TargetIT API" será importada com todos os endpoints configurados
+3. Selecione o arquivo `docs/backend-api.postman_collection.json`
+4. A collection "backend api" será importada com todos os endpoints configurados
 
 ### Configuração:
 
@@ -332,7 +332,7 @@ Essa estrutura facilita manutenção, testes e evolução do sistema.
 ---
 
 docs/
-└── TargetIT-API.postman_collection.json  (Collection do Postman)
+└── backend-api.postman_collection.json  (Collection do Postman)
 
 ## Estrutura de Diretórios
 
